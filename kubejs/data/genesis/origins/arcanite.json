@@ -1,0 +1,26 @@
+{
+  "powers": [
+    "genesis:arcanite/mana",
+    "genesis:arcanite/mana_respawn",
+    "genesis:arcanite/mana_regen",
+    "genesis:arcanite/mana_area_regen",
+    "genesis:arcanite/flight",
+		"genesis:arcanite/fire_immunity",
+		"genesis:arcanite/lava_swim",
+		"genesis:arcanite/lava_vision",
+		"genesis:arcanite/dragon_aura",
+		"genesis:arcanite/flame",
+		"genesis:arcanite/flamemana",
+		"genesis:arcanite/size",
+		"genesis:arcanite/nimble",
+		"genesis:arcanite/attack",
+		"genesis:arcanite/resistance",
+		"genesis:arcanite/night_vision",
+		"genesis:arcanite/dragonhunger"
+  ],
+  "icon": "minecraft:enchanted_book",
+  "order": 4,
+  "impact": 1,
+  "name":"Arcanite",
+  "description": "Show them your power."
+}

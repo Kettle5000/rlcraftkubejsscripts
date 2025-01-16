@@ -1,0 +1,19 @@
+{
+    "type": "origins:multiple",
+    "name": "Arcane",
+    "arcane": {
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.attack_speed",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 0.15
+        }
+    },
+    "breakspeed": {
+        "type": "origins:modify_break_speed",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 0.15
+        }
+    }
+}

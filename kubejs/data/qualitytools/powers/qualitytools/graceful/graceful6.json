@@ -1,0 +1,19 @@
+{
+  "type": "origins:multiple",
+  "name": "Arcane",
+  "damage": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 0.18,
+      "operation": "multiply_base"
+    }
+  },
+  "magicdefence": {
+    "type": "origins:modify_break_speed",
+    "modifier": {
+      "operation": "multiply_base",
+      "value": 0.18
+    }
+  }
+}

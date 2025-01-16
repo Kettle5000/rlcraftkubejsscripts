@@ -1,0 +1,10 @@
+{
+    "name":"Item Reach",
+    "description":"You like to pick up things that you find, they are fascinating and interesting to you. Your pickup range is doubled.",
+    "type":"origins:action_over_time",
+    "entity_action":{
+       "type":"origins:execute_command",
+       "command":"tp @e[type=minecraft:item,distance=..3.85,nbt={PickupDelay:0s}] @s"
+    },
+    "interval":1
+}

@@ -1,0 +1,7 @@
+{
+    "name":"Tiny Wings",
+    "description":"You have tiny wings that allow you to soar the skies, as well as hover and land safely.",
+    "type":"origins:elytra_flight",
+    "render_elytra":true,
+    "texture_location": "minecraft:textures/entity/elytra.png"
+}

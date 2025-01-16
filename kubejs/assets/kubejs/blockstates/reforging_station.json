@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "kubejs:block/reforging_station"
+        },
+        "facing=east": {
+            "model": "kubejs:block/reforging_station",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "kubejs:block/reforging_station",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "kubejs:block/reforging_station",
+            "y": 270
+        }
+    }
+}

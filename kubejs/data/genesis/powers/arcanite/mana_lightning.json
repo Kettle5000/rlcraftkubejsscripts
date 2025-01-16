@@ -1,0 +1,33 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:change_resource",
+		"resource": "genesis:arcanite/mana",
+		"change": -20
+	},
+	"cooldown": 50,
+	"hud_render": {
+		"should_render": false
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:power_active",
+				"power": "genesis:arcanite/eldritch_talent"
+			},
+			{
+				"type": "origins:resource",
+				"resource": "genesis:arcanite/mana",
+				"comparison": ">=",
+				"compare_to": 20
+			},
+			{
+				"type": "origins:xp_levels",
+				"comparison": ">=",
+				"compare_to": 10
+			}
+		]
+	},
+	"hidden": true
+}

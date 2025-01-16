@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "titan:size",
+    "titan:attribute_fix",
+    "titan:water",
+    "titan:titanhungermove",
+    "titan:titanhungersprint",
+    "titan:armorrestriction"
+  ],
+  "icon": "minecraft:dripstone_block",
+  "order": 4,
+  "impact": 3,
+  "name": "§2Titan",
+  "description": "A prehistoric race. Even among the mythical Cyclops and Giants you are especially rare as you are nearly the last of your kind."
+}

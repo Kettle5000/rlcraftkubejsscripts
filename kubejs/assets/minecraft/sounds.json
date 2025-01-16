@@ -1,0 +1,72 @@
+{
+  
+  "dragonfire_breath": {
+    
+    "sounds": [
+      {
+        "name": "dragonfire_breath"
+      }
+    ]
+  },
+  "lightning_breath": {
+    
+    "sounds": [
+      {
+        "name": "lightning_breath"
+      }
+    ]
+  },
+  "waterdragon_breath": {
+    
+    "sounds": [
+      {
+        "name": "waterdragon_breath"
+      }
+    ]
+  },
+  "ambient.flap": {
+    
+    "sounds": [
+      {
+        "name": "ambient/flap"
+      },
+      {
+        "name": "ambient/flap2"
+      },
+      {
+        "name": "ambient/flap3"
+      },
+      {
+        "name": "ambient/flap4"
+      }
+    ]
+  },
+  "teleport": {
+    
+    "sounds": [
+      {
+        "name": "teleport"
+      }
+    ]
+  },
+  "knapping": {
+    "category": "block",
+    "sounds": [
+      "knapping/1",
+      "knapping/2",
+      "knapping/3",
+      "knapping/4"
+    ]
+  },
+  "craftsaw": {
+    "category": "ambient",
+    "sounds": [
+      "craftsaw/craftsaw1",
+      "craftsaw/craftsaw2",
+      "craftsaw/craftsaw3",
+      "craftsaw/craftsaw4",
+      "craftsaw/craftsaw5"
+    ]
+  }
+  
+}

@@ -1,0 +1,9 @@
+{
+  "type": "origins:particle",
+  "particle": "minecraft:enchant",
+  "frequency": 1,
+  "hud_render": {
+    "should_render": false
+  },
+  "hidden": true
+}

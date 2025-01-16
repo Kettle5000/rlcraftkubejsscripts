@@ -1,0 +1,49 @@
+{
+   "type": "origins:modify_damage_taken",
+   "damage_condition": {
+      "type": "origins:or",
+      "conditions": [
+         {
+            "type": "origins:name",
+            "name": "magic"
+         },
+         {
+            "type": "origins:name",
+            "name": "indirectMagic"
+         },
+         {
+            "type": "origins:name",
+            "name": "indirectMagic.item"
+         },
+         {
+            "type": "origins:name",
+            "name": "sonic_boom"
+         },
+         {
+            "type": "origins:name",
+            "name": "sonic_boom.player"
+         },
+         {
+            "type": "origins:name",
+            "name": "sonic_boom.item"
+         },
+         {
+            "type": "origins:name",
+            "name": "thorns"
+         },
+         {
+            "type": "origins:name",
+            "name": "thorns.item"
+         },
+         {
+            "type": "origins:name",
+            "name": "witherSkull"
+         }
+      ]
+   },
+   "modifier": {
+      "name": "Armor but for magic",
+      "operation": "multiply_base_multiplicative",
+      "value": -0.08
+   }
+}

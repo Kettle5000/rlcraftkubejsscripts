@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+	"modifier": {
+		"attribute": "forge:entity_gravity",
+		"value": 0.022,
+		"operation": "addition"
+	}
+	
+	
+}
+

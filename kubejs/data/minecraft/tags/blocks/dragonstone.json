@@ -1,0 +1,12 @@
+
+{
+  "replace": false,
+  "values": [
+    "#forge:cobblestone",
+    "#forge:stone",
+    
+    "minecraft:cobblestone",
+    "minecraft:stone",
+    "#origins:natural_stone"
+  ]
+}

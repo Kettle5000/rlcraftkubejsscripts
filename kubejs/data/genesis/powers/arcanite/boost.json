@@ -1,0 +1,46 @@
+{
+  "type": "origins:active_self",
+  "name": "Flap",
+  "description": "You can boost yourself forward by flapping your wings (space bar).",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:add_velocity",
+        "z": 0.7,
+        "y": 1.5,
+        "space": "local"
+      },
+      {
+        "type": "origins:exhaust",
+        "amount": 0.1
+      },
+{
+        "type":"origins:play_sound",
+        "sound":"minecraft:ambient.flap",
+        "pitch": 1.5
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      
+      
+      {
+				"type": "origins:power_active",
+				"power": "genesis:arcanite/flapmana"
+			}
+      
+    ]
+  },
+  "cooldown": 0,
+  "hud_render": {
+    "should_render": false,
+    "bar_index": 4
+  },
+  "key": {
+    "key": "key.jump",
+    "continuous": false
+  }
+}

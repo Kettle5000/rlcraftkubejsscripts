@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:elf_ring",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:titan_ring",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:dragon_ring",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:ring_of_faeles",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:lightning_dragon_ring",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:ocean_dragon_ring",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:fairy_ring",
+          "weight": 20
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

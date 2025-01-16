@@ -1,0 +1,8 @@
+{
+  "name":"Fae Spawn",
+  "description":"You spawn in the Dark Forest, surrounded by your source of power.",
+  "type":"origins:modify_player_spawn",
+  "dimension":"minecraft:overworld",
+  "biome":"minecraft:dark_forest",
+  "spawn_strategy":"center"
+}

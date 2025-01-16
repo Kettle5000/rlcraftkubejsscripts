@@ -1,0 +1,19 @@
+{
+	"type": "origins:action_over_time",
+	"interval": 25,
+	"entity_action": {
+		"type": "origins:change_resource",
+		"resource": "genesis:arcanite/manaflap",
+		"change": 2
+	},
+	"cooldown": 25,
+	"hud_render": {
+		"should_render": false
+	},
+	"condition": {
+		"type": "origins:health",
+		"comparison": ">",
+		"compare_to": "4"
+	},
+	"hidden": true
+}

@@ -1,0 +1,8 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "value": -0.1,
+        "operation": "multiply_base"
+    }
+}

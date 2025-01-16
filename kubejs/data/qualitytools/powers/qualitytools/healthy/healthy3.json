@@ -1,0 +1,31 @@
+{
+  "type": "origins:multiple",
+  "health": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": 6,
+      "operation": "addition"
+    }
+  },
+  "small": {
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+      "type": "origins:and",
+      "actions": []
+    },
+    "entity_action_respawned": {
+      "type": "origins:and",
+      "actions": []
+    },
+    "execute_chosen_when_orb": true,
+    "entity_action_lost": {
+      "type": "origins:execute_command",
+      "command": "effect give @s minecraft:instant_health 1"
+    },
+    "entity_action_added": {
+      "type": "origins:and",
+      "actions": []
+    }
+  }
+}

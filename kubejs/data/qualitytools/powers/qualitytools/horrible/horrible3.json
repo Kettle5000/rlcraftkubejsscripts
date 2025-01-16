@@ -1,0 +1,59 @@
+{
+   "type": "origins:multiple",
+   "name": "Arcane",
+   "arcane": {
+      "type": "origins:modify_damage_dealt",
+      "damage_condition": {
+         "type": "origins:or",
+         "conditions": [
+            {
+               "type": "origins:name",
+               "name": "magic"
+            },
+            {
+               "type": "origins:name",
+               "name": "indirectMagic"
+            },
+            {
+               "type": "origins:name",
+               "name": "indirectMagic.item"
+            },
+            {
+               "type": "origins:name",
+               "name": "thorns"
+            },
+            {
+               "type": "origins:name",
+               "name": "thorns.item"
+            },
+            {
+               "type": "origins:name",
+               "name": "witherSkull"
+            }
+         ]
+      },
+      "modifier": {
+         "name": "Armor but for magic",
+         "operation": "multiply_base_multiplicative",
+         "value": -0.15
+      }
+   },
+   "arrow": {
+      "type": "origins:modify_projectile_damage",
+      "damage_condition": {
+         "type": "origins:projectile"
+      },
+      "modifier": {
+         "value": -0.15,
+         "operation": "multiply_base"
+      }
+   },
+   "damage": {
+      "type": "origins:conditioned_attribute",
+      "modifier": {
+         "attribute": "minecraft:generic.attack_damage",
+         "value": -0.15,
+         "operation": "multiply_base"
+      }
+   }
+}

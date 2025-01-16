@@ -1,0 +1,21 @@
+{
+	"type": "origins:creative_flight",
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:resource",
+				"resource": "genesis:arcanite/mana",
+				"comparison": ">=",
+				"compare_to": 1
+			},
+			{
+				"type": "origins:food_level",
+				"comparison": ">=",
+				"compare_to": 7
+			  }
+		]
+	},
+	"name": "§6§nFlight",
+	"description": "§4Conquer the heavens. §f[Master]"
+}

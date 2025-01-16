@@ -1,0 +1,19 @@
+{
+	"name":"§cHunger Lust",
+    "description":"Due to your massive size you need more nutrition than a human.(Added exhaustion while moving)",
+	
+		"type": "origins:exhaust",
+		"exhaustion": 0.3,
+		"interval": 10,
+		"condition": {
+			"type": "origins:or",
+			"conditions": [
+				
+				{
+					"type": "origins:moving"
+				}
+			]
+		}
+  
+		
+	  }

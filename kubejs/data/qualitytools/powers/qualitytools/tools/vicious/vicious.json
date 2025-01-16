@@ -1,0 +1,19 @@
+{
+  "type": "origins:multiple",
+  "big": {
+    "type": "origins:modify_attribute",
+    "attribute": "forge:block_reach",
+    "modifier": {
+      "operation": "addition",
+      "value": -0.5
+    }
+  },
+  "reach": {
+    "type": "origins:modify_attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "modifier": {
+      "operation": "multiply_base",
+      "value": 0.15
+    }
+  }
+}

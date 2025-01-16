@@ -1,0 +1,34 @@
+{
+	"type": "origins:fire_projectile",
+
+	"entity_type": "minecraft:wither_skull",
+	"count": "1",
+	"speed": "1.5",
+	"divergence": "1.0",
+
+	"cooldown": 25,
+	"hud_render": {
+		"should_render": true,
+		"bar_index": 15,
+		"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png"
+	},
+
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:resource",
+				"resource": "genesis:arcanite/mana",
+				"comparison": ">",
+				"compare_to": "40"
+			},
+			{
+				"type": "origins:advancement",
+				"advancement": "arcanite:magus"
+			}
+		]
+	},
+	"key": "secondary",
+	"name": "§0§nWithercall",
+	"description": "§4Death is at your beck and call... §f[Magus]"
+}

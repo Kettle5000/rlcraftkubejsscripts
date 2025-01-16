@@ -1,0 +1,30 @@
+{
+    "type": "origins:multiple",
+    "name": "Arcane",
+    "stuff": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "Max health increase",
+            "attribute": "minecraft:generic.armor_toughness",
+            "value": 1,
+            "operation": "addition"
+        }
+    },
+    "arcane": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "Max health increase",
+            "attribute": "minecraft:generic.armor",
+            "value": 0.5,
+            "operation": "addition"
+        }
+    },
+    "magicdefence": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.luck",
+            "value": 0.5,
+            "operation": "addition"
+        }
+    }
+}

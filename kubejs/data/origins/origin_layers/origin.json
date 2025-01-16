@@ -1,0 +1,20 @@
+
+{
+    "replace": false,
+    "order": 0,
+    "enabled": false,
+    "origins": [
+        "elfring:elf",
+        "whiskers:elytratwo",
+        "fae:fae",
+        "genesis:arcanite",
+        "genesis:lightningdragon",
+        "genesis:oceandragon",
+        "titan:titan"
+    ],
+    "allow_random": false,
+    "exclude_random": [
+    ],
+    "allow_random_unchoosable": false,
+    "hidden": true
+  }

@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "multiply_base",
+    "value": "0.25"
+  },
+  "name": "§2§nNimble",
+  "description": "You have enhanced speed, due to your magical abilities."
+  
+}

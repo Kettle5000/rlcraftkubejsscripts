@@ -1,0 +1,12 @@
+{
+	"type": "origins:simple",
+	"name": "§b§nLightning Strike",
+	"description": "§4Summon lightning whenever you hit something. §f[Adept]",
+
+	"badges": [
+		{
+			"sprite": "origins:textures/gui/badge/toggle.png",
+			"text": "Toggle Power with F [Swap Off Hand]"
+		}
+	]
+}

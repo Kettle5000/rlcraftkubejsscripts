@@ -1,0 +1,66 @@
+{
+    "name": "Size",
+    "description": "Cat Size",
+    "type": "origins:multiple",
+    "step": {
+        "type": "origins:attribute",
+        "modifier": {
+            "name": "Step Increase",
+            "attribute": "forge:step_height_addition",
+            "value": 0.5,
+            "operation": "addition"
+        }
+    },
+    "small": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:height 0.75 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:width 0.75 @s"
+                }
+            ]
+        },
+        "entity_action_respawned": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:height 0.75 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:width 0.75 @s"
+                }
+            ]
+        },
+        "execute_chosen_when_orb": true,
+        "entity_action_lost": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale reset @s"
+                }
+            ]
+        },
+        "entity_action_added": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:height 0.75 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:width 0.75 @s"
+                }
+            ]
+        }
+    }
+}

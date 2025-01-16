@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"whiskers:night",
+		"whiskers:speed",
+		"whiskers:fall_immunity",
+		"whiskers:scare_creepers",
+		"whiskers:jump",
+		"whiskers:sprint_jump",
+		"whiskers:gravity",
+		"whiskers:size",
+		"whiskers:weight",
+		"whiskers:barehanded"
+	],
+	"icon": "minecraft:ender_eye",
+	"order": 10,
+	"impact": 3,
+	"name": "Feline Evolved",
+	"description": "Feline 2.0!"
+}

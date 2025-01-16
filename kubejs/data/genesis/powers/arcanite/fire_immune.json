@@ -1,0 +1,9 @@
+{
+	"type": "origins:fire_immunity",
+	"condition": {
+		"type": "origins:advancement",
+		"advancement": "arcanite:thaumaturge"
+	},
+	"name": "§e§nPlasma Invulnerability",
+	"description": "§4Become immune to fire and lightning damage §f[Thaumaturge]"
+}

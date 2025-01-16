@@ -1,0 +1,40 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:change_resource",
+		"resource": "genesis:arcanite/manaflap",
+		"change": -5
+	},
+	"cooldown": 0,
+	"hud_render": {
+		"should_render": false
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			
+			{
+				"type": "origins:food_level",
+				"comparison": ">=",
+				"compare_to": 7
+			  },
+			  {
+				"type": "origins:fall_distance",
+				"comparison": ">=",
+				"compare_to": 0.00001
+			},
+      {
+				"type": "origins:resource",
+				"resource": "genesis:arcanite/manaflap",
+				"comparison": ">=",
+				"compare_to": 1
+			}
+			
+		]
+	},
+	"hidden": true,
+	"key": {
+		"key": "key.jump",
+		"continuous": false
+	  }
+}

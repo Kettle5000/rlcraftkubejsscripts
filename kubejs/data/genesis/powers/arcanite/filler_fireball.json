@@ -1,0 +1,27 @@
+{
+	"type": "origins:fire_projectile",
+	"entity_type": "minecraft:fireball",
+	"count": "1",
+	"speed": "1.5",
+	"divergence": "1.0",
+	"cooldown": 25,
+	"hud_render": {
+		"should_render": true,
+		"bar_index": 7
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:resource",
+				"resource": "genesis:arcanite/mana",
+				"comparison": ">=",
+				"compare_to": 15
+			}
+		]
+	},
+		"key": "primary",
+		"name": "§d§nFireball",
+		"description": "§4Launch fireballs, and bring hell. §f[Acolyte]"
+
+}

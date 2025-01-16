@@ -1,0 +1,39 @@
+{
+    "type": "origins:multiple",
+    "name": "Arcane",
+    "stuff": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "Max health increase",
+            "attribute": "minecraft:generic.armor_toughness",
+            "value": 1,
+            "operation": "addition"
+        }
+    },
+    "arcane": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "Max health increase",
+            "attribute": "minecraft:generic.armor",
+            "value": 0.275,
+            "operation": "addition"
+        }
+    },
+    "stufff": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "forge:step_height_addition",
+            "value": 0.5,
+            "operation": "addition"
+        }
+    },
+    "speed": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "Max health increase",
+            "attribute": "minecraft:generic.movement_speed",
+            "value": 0.1,
+            "operation": "multiply_base"
+        }
+    }
+}

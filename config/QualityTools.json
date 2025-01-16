@@ -1,0 +1,283 @@
+{
+	"Armor": [
+		{
+			"displayname": "Arcane Name",
+			"id": "Arcanehelmet",
+			"slot": [
+				"helmet"
+			],
+			"color": "blue",
+			"weight": 10,
+			"attributes": [
+				{
+					"attribute": "qualitytools:jump_power",
+					"value": 0.5,
+					"identifier": "ArcIdentifier",
+					"operation": "addition"
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"value": 0.7,
+					"identifier": "ArcIdentifier",
+					"operation": "addition"
+				}
+			],
+			"modify_damage_taken": {
+				"damage_types": [
+					"witherSkull"
+				],
+				"modifier": {
+					"operation": "multiply_base",
+					"value": -0.5
+				}
+			},
+			"modify_damage_dealt": {
+				"damage_types": [
+					"witherSkull"
+				],
+				"modifier": {
+					"operation": "multiply_base",
+					"value": -0.5
+				}
+			},
+			"tooltipEnabled": true,
+			"tooltips": [
+				{
+					"tooltip": [
+						[
+							{
+								"text": "+1 Magic Shielding",
+								"color": "blue"
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"displayname": "Arcane Name",
+			"id": "Arcanelegs",
+			"slot": [
+				"leggings"
+			],
+			"color": "blue",
+			"weight": 10,
+			"attributes": [
+				{
+					"attribute": "qualitytools:jump_power",
+					"value": 0.5,
+					"identifier": "ArcIdentifier",
+					"operation": "addition"
+				},
+				{
+					"attribute": "qualitytools:break_speed",
+					"value": 0.7,
+					"identifier": "ArcIdentifier",
+					"operation": "addition"
+				}
+			],
+			"modify_damage_taken": {
+				"damage_types": [
+					"magic",
+					"indirectMagic",
+					"indirectMagic.item",
+					"sonic_boom",
+					"sonic_boom.player",
+					"sonic_boom.item",
+					"thorns",
+					"thorns.item",
+					"witherSkull"
+				],
+				"modifier": {
+					"operation": "multiply_base",
+					"value": -0.5
+				}
+			},
+			"modify_damage_dealt": {
+				"damage_types": [
+					"magic",
+					"indirectMagic",
+					"indirectMagic.item",
+					"sonic_boom",
+					"sonic_boom.player",
+					"sonic_boom.item",
+					"thorns",
+					"thorns.item",
+					"witherSkull"
+				],
+				"modifier": {
+					"operation": "multiply_base",
+					"value": -0.5
+				}
+			},
+			"tooltipEnabled": true,
+			"tooltips": [
+				{
+					"tooltip": [
+						[
+							{
+								"text": "+2 Magic Shielding",
+								"color": "blue"
+							}
+						]
+					]
+				}
+			]
+		}
+	],
+	"Tools": [
+		{
+			"id": "Worthless",
+			"color": "dark_red",
+			"weight": 10
+		},
+		{
+			"id": "Broken",
+			"color": "gray",
+			"weight": 10
+		},
+		{
+			"id": "Bulky",
+			"color": "gray",
+			"weight": 10
+		},
+		{
+			"id": "Rusted",
+			"color": "red",
+			"weight": 10
+		},
+		{
+			"id": "Clumsy",
+			"color": "red",
+			"weight": 10
+		},
+		{
+			"id": "Chipped",
+			"color": "red",
+			"weight": 10
+		},
+		{
+			"id": "Short",
+			"color": "red",
+			"weight": 10
+		},
+		{
+			"id": "Broad",
+			"color": "yellow",
+			"weight": 10
+		},
+		{
+			"id": "Thin",
+			"color": "yellow",
+			"weight": 10
+		},
+		{
+			"id": "Pokey",
+			"color": "yellow",
+			"weight": 10
+		},
+		{
+			"id": "Vicious",
+			"color": "yellow",
+			"weight": 10
+		},
+		{
+			"id": "Long",
+			"color": "blue",
+			"weight": 10
+		},
+		{
+			"id": "Sharp",
+			"color": "blue",
+			"weight": 10
+		},
+		{
+			"id": "Keen",
+			"color": "blue",
+			"weight": 10
+		},
+		{
+			"id": "Elegant",
+			"color": "aqua",
+			"weight": 10
+		},
+		{
+			"id": "Sweeping",
+			"color": "aqua",
+			"weight": 10
+		},
+		{
+			"id": "Legendary",
+			"color": "light_purple",
+			"weight": 5
+		}
+	],
+	"Curios": [
+		{
+			"id": "Arcane",
+			"color": "blue",
+			"weight": 10,
+			"attributes": [
+				{
+					"attribute": "qualitytools:jump_power",
+					"value": 0.5,
+					"identifier": "ArcIdentifier",
+					"operation": "addition"
+				},
+				{
+					"attribute": "qualitytools:break_speed",
+					"value": 0.7,
+					"identifier": "ArcIdentifier",
+					"operation": "addition"
+				}
+			],
+			"modify_damage_taken": {
+				"damage_types": [
+					"magic",
+					"indirectMagic",
+					"indirectMagic.item",
+					"sonic_boom",
+					"sonic_boom.player",
+					"sonic_boom.item",
+					"thorns",
+					"thorns.item",
+					"witherSkull"
+				],
+				"modifier": {
+					"operation": "multiply_base",
+					"value": -0.5
+				}
+			},
+			"modify_damage_dealt": {
+				"damage_types": [
+					"magic",
+					"indirectMagic",
+					"indirectMagic.item",
+					"sonic_boom",
+					"sonic_boom.player",
+					"sonic_boom.item",
+					"thorns",
+					"thorns.item",
+					"witherSkull"
+				],
+				"modifier": {
+					"operation": "multiply_base",
+					"value": -0.5
+				}
+			},
+			"tooltipEnabled": true,
+			"tooltips": [
+				{
+					"tooltip": [
+						[
+							{
+								"text": "+1 Magic Shielding",
+								"color": "blue"
+							}
+						]
+					]
+				}
+			]
+		}
+	]
+}

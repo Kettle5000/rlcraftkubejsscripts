@@ -1,0 +1,40 @@
+{
+  "type": "origins:active_self",
+  "condition": {
+		"type": "origins:and",
+		"conditions": [
+			
+      {
+				"type": "origins:power_active",
+				"power": "genesis:arcanite/waterboltmana"
+			}
+		]
+	},
+  
+  "entity_action": {
+		"type": "origins:and",
+    "actions": [
+      
+	
+      {
+        "type": "origins:execute_command",
+        "command": "function genesis:scheduledwaterattack",
+        "permission_level": 4
+      }
+]
+},
+  
+  "cooldown": 4,
+  "continuous":true,
+  "hud_render": {
+    "should_render": false,
+    "bar_index": 2
+  },
+  "key": {
+    "key": "primary",
+    "continuous": true
+  },
+  "hidden": false,
+  "name": "Lightning Dash",
+    "description":"(Primary)-You throw a bolt of lightning which sends you to the location where it lands."
+}

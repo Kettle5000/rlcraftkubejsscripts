@@ -1,0 +1,9 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "name": "Max health increase",
+        "attribute": "minecraft:generic.attack_speed",
+        "value": 0.18,
+        "operation": "multiply_base"
+    }
+}

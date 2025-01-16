@@ -1,0 +1,39 @@
+{
+    "type": "origins:multiple",
+    "name": "Arcane",
+    "attackspeed": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "Max health increase",
+            "attribute": "minecraft:generic.attack_speed",
+            "value": -0.05,
+            "operation": "multiply_base"
+        }
+    },
+    "speeder": {
+        "modifier": {
+            "operation": "multiply_base",
+            "value": -0.05
+        },
+        "type": "origins:modify_break_speed",
+        "hardness_modifiers": [
+            {
+                "operation": "max_total",
+                "value": -1.0
+            },
+            {
+                "operation": "min_total",
+                "value": 0.1
+            }
+        ]
+    },
+    "movespeed": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "Max health increase",
+            "attribute": "minecraft:generic.movement_speed",
+            "value": -0.05,
+            "operation": "multiply_base"
+        }
+    }
+}

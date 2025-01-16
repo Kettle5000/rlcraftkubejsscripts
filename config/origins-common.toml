@@ -1,0 +1,200 @@
+
+[origins]
+
+	[origins."origins:enderian"]
+		enabled = true
+		"origins:throw_ender_pearl" = true
+		"origins:water_vulnerability" = true
+		"origins:pumpkin_hate" = true
+		"origins:extra_reach" = true
+		"origins:ender_particles" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:arachnid"]
+		enabled = true
+		"origins:climbing" = true
+		"origins:master_of_webs" = true
+		"origins:carnivore" = true
+		"origins:fragile" = true
+		"origins:arthropod" = true
+
+	[origins."origins:human"]
+		enabled = true
+
+	[origins."origins:blazeborn"]
+		enabled = true
+		"origins:fire_immunity" = true
+		"origins:nether_spawn" = true
+		"origins:burning_wrath" = true
+		"origins:hotblooded" = true
+		"origins:water_vulnerability" = true
+		"origins:flame_particles" = true
+		"origins:damage_from_snowballs" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:avian"]
+		enabled = true
+		"origins:slow_falling" = true
+		"origins:fresh_air" = true
+		"origins:like_air" = true
+		"origins:tailwind" = true
+		"origins:lay_eggs" = true
+		"origins:vegetarian" = true
+
+	[origins."origins:feline"]
+		enabled = true
+		"origins:fall_immunity" = true
+		"origins:sprint_jump" = true
+		"origins:velvet_paws" = true
+		"origins:nine_lives" = true
+		"origins:weak_arms" = true
+		"origins:scare_creepers" = true
+		"origins:cat_vision" = true
+
+	[origins."origins:elytrian"]
+		enabled = true
+		"origins:elytra" = true
+		"origins:launch_into_air" = true
+		"origins:aerial_combatant" = true
+		"origins:light_armor" = true
+		"origins:claustrophobia" = true
+		"origins:more_kinetic_damage" = true
+
+	[origins."origins:shulk"]
+		enabled = true
+		"origins:shulker_inventory" = true
+		"origins:natural_armor" = true
+		"origins:strong_arms" = true
+		"origins:strong_arms_break_speed" = true
+		"origins:no_shield" = true
+		"origins:more_exhaustion" = true
+
+	[origins."origins:merling"]
+		enabled = true
+		"origins:water_breathing" = true
+		"origins:water_vision" = true
+		"origins:aqua_affinity" = true
+		"origins:swim_speed" = true
+		"origins:like_water" = true
+		"origins:aquatic" = true
+		"origins:conduit_power_on_land" = true
+		"origins:air_from_potions" = true
+
+	[origins."origins:phantom"]
+		enabled = true
+		"origins:phantomize" = true
+		"origins:translucent" = true
+		"origins:phasing" = true
+		"origins:invisibility" = true
+		"origins:burn_in_daylight" = true
+		"origins:hunger_over_time" = true
+		"origins:fragile" = true
+		"origins:phantomize_overlay" = true
+
+	[origins."titan:titan"]
+		enabled = true
+		"titan:multimine" = true
+		"titan:multiminetrigger" = true
+		"titan:size" = true
+		"titan:attribute_fix" = true
+		"titan:water" = true
+		"titan:titanhungermove" = true
+		"titan:titanhungersprint" = true
+		"titan:armorrestriction" = true
+
+	[origins."whiskers:elytratwo"]
+		enabled = true
+		"whiskers:night" = true
+		"whiskers:speed" = true
+		"whiskers:fall_immunity" = true
+		"whiskers:scare_creepers" = true
+		"whiskers:velvet_paws" = true
+		"whiskers:jump" = true
+		"whiskers:sprint_jump" = true
+		"whiskers:gravity" = true
+		"whiskers:size" = true
+		"whiskers:weight" = true
+		"whiskers:barehanded" = true
+
+	[origins."genesis:lightningdragon"]
+		enabled = true
+		"genesis:arcanite/mana" = true
+		"genesis:arcanite/mana_respawn" = true
+		"genesis:arcanite/mana_regen" = true
+		"genesis:arcanite/mana_area_regen" = true
+		"genesis:arcanite/flight" = true
+		"genesis:arcanite/lightning_immune" = true
+		"genesis:arcanite/lightning_dragon_aura" = true
+		"genesis:arcanite/size" = true
+		"genesis:arcanite/nimble" = true
+		"genesis:arcanite/attack" = true
+		"genesis:arcanite/resistance" = true
+		"genesis:arcanite/night_vision" = true
+		"genesis:arcanite/lightningthrow" = true
+		"genesis:arcanite/lightningthrowmana" = true
+		"genesis:arcanite/dragonhunger" = true
+
+	[origins."genesis:arcanite"]
+		enabled = true
+		"genesis:arcanite/mana" = true
+		"genesis:arcanite/mana_respawn" = true
+		"genesis:arcanite/mana_regen" = true
+		"genesis:arcanite/mana_area_regen" = true
+		"genesis:arcanite/flight" = true
+		"genesis:arcanite/fire_immunity" = true
+		"genesis:arcanite/lava_swim" = true
+		"genesis:arcanite/lava_vision" = true
+		"genesis:arcanite/dragon_aura" = true
+		"genesis:arcanite/flame" = true
+		"genesis:arcanite/flamemana" = true
+		"genesis:arcanite/size" = true
+		"genesis:arcanite/nimble" = true
+		"genesis:arcanite/attack" = true
+		"genesis:arcanite/resistance" = true
+		"genesis:arcanite/night_vision" = true
+		"genesis:arcanite/dragonhunger" = true
+
+	[origins."elfring:elf"]
+		enabled = true
+		"elfring:elf/power" = true
+		"elfring:elf/fireweak" = true
+		"elfring:elf/regeneration" = true
+		"elfring:elf/archery" = true
+		"elfring:elf/falldamage" = true
+		"elfring:elf/size" = true
+		"elfring:elf/attack" = true
+
+	[origins."fae:fae"]
+		enabled = true
+		"fae:fae_defense" = true
+		"fae:fae_impact" = true
+		"fae:fae_punch" = true
+		"fae:fae_thing" = true
+		"fae:fae_aura" = true
+		"fae:hover" = true
+		"fae:little_jump" = true
+		"fae:reach_fix" = true
+		"fae:flighthunger" = true
+		"fae:falldamage" = true
+
+	[origins."genesis:oceandragon"]
+		enabled = true
+		"genesis:arcanite/manaflap" = true
+		"genesis:arcanite/mana_respawn_flap" = true
+		"genesis:arcanite/mana_regen_flap" = true
+		"genesis:arcanite/lightning_immune" = true
+		"genesis:arcanite/ocean_dragon_aura" = true
+		"genesis:arcanite/size" = true
+		"genesis:arcanite/nimble2" = true
+		"genesis:arcanite/attackminus" = true
+		"genesis:arcanite/resistance" = true
+		"genesis:arcanite/water_vision" = true
+		"genesis:arcanite/night_vision2" = true
+		"genesis:arcanite/waterbolt" = true
+		"genesis:arcanite/water_breathing" = true
+		"genesis:arcanite/waterboltmana" = true
+		"genesis:arcanite/boost" = true
+		"genesis:arcanite/flapmana" = true
+		"genesis:arcanite/flapfall" = true
+		"genesis:arcanite/dragonhunger" = true
+

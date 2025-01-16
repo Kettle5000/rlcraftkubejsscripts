@@ -1,0 +1,18 @@
+{
+    "name":"Fae Aura",
+    "description":"You have a powerful aura around you, particles appear on your body.",
+    "type": "origins:multiple",
+    "enchanted_particles": {
+        "type":"origins:particle",
+        "particle":"minecraft:enchant",
+        "frequency":8,
+        "visible_in_first_person":false
+    },
+    
+    "obsidian_particles": {
+        "type": "origins:particle",
+        "particle": "minecraft:dripping_obsidian_tear",
+        "frequency": 8,
+        "visible_in_first_person":false
+    }
+}

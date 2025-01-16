@@ -1,0 +1,27 @@
+{
+	"type": "origins:action_over_time",
+	"interval": 3,
+	"entity_action": {
+		"type": "origins:and",
+    "actions": [
+		{
+		"type": "origins:change_resource",
+		"resource": "genesis:arcanite/mana",
+		"change": -2
+	},
+	{
+        "type": "origins:exhaust",
+        "amount": 0.1
+      }
+]
+},
+
+	"cooldown": 1,
+	"hud_render": {
+		"should_render": false
+	},
+	"condition": {
+		"type": "origins:creative_flying"
+	},
+	"hidden": true
+}

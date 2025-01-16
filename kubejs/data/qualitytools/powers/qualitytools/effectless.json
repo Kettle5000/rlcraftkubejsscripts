@@ -1,0 +1,54 @@
+{
+    "type": "origins:multiple",
+    "effects": {
+        "type": "origins:effect_immunity",
+        "effects": [
+            "minecraft:absorption",
+            "minecraft:bad_omen",
+            "minecraft:blindness",
+            "minecraft:conduit_power",
+            "minecraft:dolphins_grace",
+            "minecraft:fire_resistance",
+            "minecraft:glowing",
+            "minecraft:haste",
+            "minecraft:health_boost",
+            "minecraft:hero_of_the_village",
+            "minecraft:hunger",
+            "minecraft:instant_damage",
+            "minecraft:instant_health",
+            "minecraft:jump_boost",
+            "minecraft:levitation",
+            "minecraft:luck",
+            "minecraft:mining_fatigue",
+            "minecraft:nausea",
+            "minecraft:night_vision",
+            "minecraft:poison",
+            "minecraft:regeneration",
+            "minecraft:resistance",
+            "minecraft:saturation",
+            "minecraft:slow_falling",
+            "minecraft:slowness",
+            "minecraft:speed",
+            "minecraft:strength",
+            "minecraft:unluck",
+            "minecraft:water_breathing",
+            "minecraft:weakness",
+            "minecraft:wither"
+        ]
+    },
+    "key1": {
+        "condition": {
+            "type": "origins:fall_distance",
+            "comparison": ">=",
+            "compare_to": 200
+        },
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:from_falling"
+        },
+        "modifier": {
+            "operation": "set_total",
+            "value": 0
+        }
+    }
+}

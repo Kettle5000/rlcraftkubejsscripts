@@ -1,0 +1,11 @@
+{
+  "type": "origins:multiple",
+  "health": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": 200,
+      "operation": "addition"
+    }
+  }
+}

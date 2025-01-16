@@ -1,0 +1,24 @@
+{
+  "powers": [
+    "genesis:arcanite/mana",
+    "genesis:arcanite/mana_respawn",
+    "genesis:arcanite/mana_regen",
+    "genesis:arcanite/mana_area_regen",
+    "genesis:arcanite/flight",
+		"genesis:arcanite/lightning_immune",
+		"genesis:arcanite/lightning_dragon_aura",
+		"genesis:arcanite/size",
+		"genesis:arcanite/nimble",
+		"genesis:arcanite/attack",
+		"genesis:arcanite/resistance",
+		"genesis:arcanite/night_vision",
+    "genesis:arcanite/lightningthrow",
+    "genesis:arcanite/lightningthrowmana",
+		"genesis:arcanite/dragonhunger"
+  ],
+  "icon": "minecraft:enchanted_book",
+  "order": 4,
+  "impact": 1,
+  "name":"Lightning Dragon",
+  "description": "Show them your power."
+}

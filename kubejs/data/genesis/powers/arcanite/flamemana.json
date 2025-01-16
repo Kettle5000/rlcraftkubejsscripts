@@ -1,0 +1,34 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:change_resource",
+		"resource": "genesis:arcanite/mana",
+		"change": -5
+	},
+	"cooldown": 4,
+	"hud_render": {
+		"should_render": false
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			
+			{
+				"type": "origins:resource",
+				"resource": "genesis:arcanite/mana",
+				"comparison": ">=",
+				"compare_to": 5
+			},
+			{
+				"type": "origins:food_level",
+				"comparison": ">=",
+				"compare_to": 7
+			  }
+		]
+	},
+	"hidden": true,
+	"key": {
+		"key": "primary",
+		"continuous": true
+	  }
+}

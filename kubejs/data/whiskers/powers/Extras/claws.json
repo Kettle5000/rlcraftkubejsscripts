@@ -1,0 +1,9 @@
+{
+	"type": "origins:modify_damage_dealt",
+	"modifier": {
+		"operation": "addition",
+		"value": 5
+	},
+	"name": "Claws",
+	"description": "You have sharp claws, allowing for you to do more damage!"
+}

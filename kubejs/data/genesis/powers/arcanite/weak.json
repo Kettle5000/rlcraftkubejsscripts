@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "operation": "addition",
+    "value": "-6"
+  },
+
+  "name": "§4§nWeak",
+  "description": "Born mostly of magic, your physical form is somewhat puny. You have three less hearts.                                       "
+}

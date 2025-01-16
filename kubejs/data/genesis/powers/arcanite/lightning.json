@@ -1,0 +1,30 @@
+{
+  "type":"origins:fire_projectile",
+  "entity_type":"minecraft:small_fireball",
+  "condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:resource",
+				"resource": "genesis:arcanite/mana",
+				"comparison": ">=",
+				"compare_to": 5
+			}
+		]
+	},
+  "tag":"{Tags:[\"fire\"]}",
+  "count":5,
+  "cooldown": 4,
+  "continuous":true,
+  "speed":1.5,
+  
+  "sound":"dragonfire_breath",
+  "divergence": 20,
+  "name":"Firebreath",
+  "description":"From lungs of steel exhale the Nether's wrath upon your enemies.",
+  
+  "key": {
+    "key": "secondary",
+    "continuous": true
+  }
+}

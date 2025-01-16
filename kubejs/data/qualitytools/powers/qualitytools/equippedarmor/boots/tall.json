@@ -1,0 +1,12 @@
+{
+    "type": "origins:multiple",
+    "name": "Arcane",
+    "arcane": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "forge:step_height_addition",
+            "value": 0.5,
+            "operation": "addition"
+        }
+    }
+}

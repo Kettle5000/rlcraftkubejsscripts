@@ -1,0 +1,13 @@
+{
+    "name": "Elf",
+    "description": "Elves and nature n stuff",
+    "powers": [
+        "elfring:elf/power",
+        "elfring:elf/size",
+        "elfring:elf/attack"
+    ],
+    "icon": {
+        "item": "minecraft:grass_block"
+    },
+    "impact": 2
+}

@@ -1,0 +1,54 @@
+{
+   "hidden": true,
+   "type": "origins:attribute",
+   "modifiers": [
+      {
+         "name": "Extra Reach block reach",
+         "attribute": "forge:entity_gravity",
+         "value": 0.04,
+         "operation": "addition"
+      },
+      {
+         "name": "Extra Reach entity reach",
+         "attribute": "forge:block_reach",
+         "value": 5,
+         "operation": "addition"
+      },
+      {
+         "name": "Extra Reach entity reach",
+         "attribute": "forge:entity_reach",
+         "value": 5,
+         "operation": "addition"
+      },
+      {
+         "name": "Extra Reach entity reach",
+         "attribute": "minecraft:generic.attack_damage",
+         "value": "-0.75",
+         "operation": "multiply_base"
+      },
+      {
+         "name": "Extra Reach entity reach",
+         "attribute": "minecraft:generic.armor",
+         "value": "-0.5",
+         "operation": "multiply_base"
+      },
+      {
+         "name": "Extra Reach entity reach",
+         "attribute": "minecraft:generic.armor_toughness",
+         "value": "-0.25",
+         "operation": "multiply_base"
+      },
+      {
+         "name": "Extra Reach entity reach",
+         "attribute": "minecraft:generic.luck",
+         "value": "2",
+         "operation": "addition"
+      },
+      {
+         "name": "Extra Reach entity reach",
+         "attribute": "forge:swim_speed",
+         "value": "-0.25",
+         "operation": "multiply_base"
+      }
+   ]
+}

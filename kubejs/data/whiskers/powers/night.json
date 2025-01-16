@@ -1,0 +1,11 @@
+{
+  "type": "origins:night_vision",
+  "strength": 0.6,
+  "condition": {
+    "type": "origins:submerged_in",
+    "fluid": "minecraft:water",
+    "inverted": true
+  },
+  "name": "Sharp Vision",
+  "description": "Your eyes allow for better vision in dark environments and during the night!"
+}

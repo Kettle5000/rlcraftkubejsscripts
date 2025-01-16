@@ -1,0 +1,18 @@
+{
+    "name":"Dragon Aura",
+    "description":"You have a powerful aura around you, particles appear on your body.",
+    "type": "origins:multiple",
+    "enchanted_particles": {
+        "type":"origins:particle",
+        "particle":"minecraft:ash",
+        "frequency":8,
+        "visible_in_first_person":true
+    },
+    
+    "obsidian_particles": {
+        "type": "origins:particle",
+        "particle": "minecraft:crimson_spore",
+        "frequency": 8,
+        "visible_in_first_person":true
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name":"Hover",
+    "description":"You have creative flight but due to your size, you move slower than most flying creatures.",
+    "type":"origins:creative_flight",
+    
+"condition": {
+    "type": "origins:and",
+    "conditions": [
+        
+        {
+            "type": "origins:food_level",
+            "comparison": ">=",
+            "compare_to": 7
+          }
+    ]
+}
+}

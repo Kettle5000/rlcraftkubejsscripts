@@ -1,0 +1,5 @@
+execute if score lesslagger lightningattack > lesslaggyy lightningattack run execute at @e[type=area_effect_cloud,tag=FLD,limit=3] run execute as @e[type=area_effect_cloud,tag=FLD] if block ~ ~ ~ #minecraft:dragonstone run setblock ~ ~ ~ kubejs:charred_stone replace
+execute if score lesslagger lightningattack < lesslaggyy lightningattack run execute at @e[type=area_effect_cloud,tag=FLD,limit=3] run execute as @e[type=area_effect_cloud,tag=FLD] if block ~ ~ ~ #minecraft:dragonburnables run fill ~ ~ ~ ~1 ~ ~1 fire keep
+execute if score lesslagger lightningattack > lesslaggyy lightningattack run execute at @e[type=area_effect_cloud,tag=FLD,limit=3] run execute as @e[type=area_effect_cloud,tag=FLD] if block ~ ~ ~ #minecraft:dragondirt run setblock ~ ~ ~ kubejs:charred_dirt replace
+execute if score lesslagger lightningattack > lesslaggyy lightningattack run execute at @e[type=area_effect_cloud,tag=FLD,limit=3] run execute as @e[type=area_effect_cloud,tag=FLD] if block ~ ~ ~ #minecraft:dragonearth run setblock ~ ~ ~ kubejs:charred_earth replace
+

@@ -1,0 +1,16 @@
+
+{
+  "replace": false,
+  "values": [
+    "#forge:cobblestone",
+    "#forge:stone",
+    "#forge:end_stones",
+    "#forge:netherrack",
+    "minecraft:cobblestone",
+    "minecraft:stone",
+    "minecraft:end_stone",
+    "minecraft:netherrack",
+    "#minecraft:stone_ore_replaceables",
+    "#origins:natural_stone"
+  ]
+}

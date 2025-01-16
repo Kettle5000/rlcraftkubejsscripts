@@ -1,0 +1,16 @@
+{
+    "type": "origins:modify_projectile_damage",
+    "damage_condition": {
+        "type": "origins:projectile"
+    },
+    "modifier": {
+        "value": 0.06,
+        "operation": "multiply_base_multiplicative"
+    },
+    "condition": {
+        "type": "origins:scoreboard",
+        "objective": "aiming",
+        "comparison": "==",
+        "compare_to": 2
+    }
+}

@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"whiskers:night",
+		"whiskers:size"
+	],
+	"icon": "minecraft:ender_eye",
+	"order": 10,
+	"impact": 3,
+	"name": "Feline Evolved",
+	"description": "Feline 2.0!"
+}

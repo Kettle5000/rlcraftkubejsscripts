@@ -1,0 +1,20 @@
+{
+  
+  "dragonfire_breath": {
+    
+    "sounds": [
+      {
+        "name": "kubejs:dragonfire_breath"
+      }
+    ]
+  },
+  "lightning_breath": {
+    
+    "sounds": [
+      {
+        "name": "kubejs:lightning_breath"
+      }
+    ]
+  }
+  
+}

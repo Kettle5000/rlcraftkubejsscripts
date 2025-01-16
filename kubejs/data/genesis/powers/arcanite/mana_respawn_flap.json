@@ -1,0 +1,12 @@
+{
+	"type": "origins:action_on_callback",
+	"entity_action_respawned": {
+		"type": "origins:change_resource",
+		"resource": "genesis:arcanite/manaflap",
+		"change": 80
+	},
+	"execute_chosen_when_orb": true,
+
+	"hidden": true
+
+}

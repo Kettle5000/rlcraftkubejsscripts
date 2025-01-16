@@ -1,0 +1,140 @@
+{
+   "type": "origins:multiple",
+   "name": "Arcane",
+   "regenflap": {
+      "type": "origins:action_over_time",
+      "condition": {
+         "type": "origins:scoreboard",
+         "objective": "arcane",
+         "comparison": "==",
+         "compare_to": 2
+      },
+      "interval": 25,
+      "entity_action": {
+         "type": "origins:change_resource",
+         "resource": "genesis:arcanite/manaflap",
+         "change": 1
+      },
+      "cooldown": 25,
+      "hud_render": {
+         "should_render": false
+      }
+   },
+   "regen": {
+      "type": "origins:action_over_time",
+      "condition": {
+         "type": "origins:scoreboard",
+         "objective": "arcane",
+         "comparison": "==",
+         "compare_to": 2
+      },
+      "interval": 25,
+      "entity_action": {
+         "type": "origins:change_resource",
+         "resource": "genesis:arcanite/mana",
+         "change": 2
+      },
+      "cooldown": 25,
+      "hud_render": {
+         "should_render": false
+      }
+   },
+   "arcane": {
+      "type": "origins:modify_damage_dealt",
+      "condition": {
+         "type": "origins:scoreboard",
+         "objective": "arcane",
+         "comparison": "==",
+         "compare_to": 2
+      },
+      "damage_condition": {
+         "type": "origins:or",
+         "conditions": [
+            {
+               "type": "origins:name",
+               "name": "magic"
+            },
+            {
+               "type": "origins:name",
+               "name": "indirectMagic"
+            },
+            {
+               "type": "origins:name",
+               "name": "indirectMagic.item"
+            },
+            {
+               "type": "origins:name",
+               "name": "thorns"
+            },
+            {
+               "type": "origins:name",
+               "name": "thorns.item"
+            },
+            {
+               "type": "origins:name",
+               "name": "witherSkull"
+            }
+         ]
+      },
+      "modifier": {
+         "name": "Armor but for magic",
+         "operation": "multiply_base_multiplicative",
+         "value": 0.06
+      }
+   },
+   "magicdefence": {
+      "type": "origins:modify_damage_taken",
+      "condition": {
+         "type": "origins:scoreboard",
+         "objective": "arcane",
+         "comparison": "==",
+         "compare_to": 2
+      },
+      "damage_condition": {
+         "type": "origins:or",
+         "conditions": [
+            {
+               "type": "origins:name",
+               "name": "magic"
+            },
+            {
+               "type": "origins:name",
+               "name": "indirectMagic"
+            },
+            {
+               "type": "origins:name",
+               "name": "indirectMagic.item"
+            },
+            {
+               "type": "origins:name",
+               "name": "sonic_boom"
+            },
+            {
+               "type": "origins:name",
+               "name": "sonic_boom.player"
+            },
+            {
+               "type": "origins:name",
+               "name": "sonic_boom.item"
+            },
+            {
+               "type": "origins:name",
+               "name": "thorns"
+            },
+            {
+               "type": "origins:name",
+               "name": "thorns.item"
+            },
+            {
+               "type": "origins:name",
+               "name": "witherSkull"
+            }
+         ]
+      },
+      "modifier": {
+         "name": "Armor but for magic",
+         "operation": "multiply_base_multiplicative",
+         "value": -0.08
+      }
+   }
+}

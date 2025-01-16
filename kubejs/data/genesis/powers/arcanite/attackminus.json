@@ -1,0 +1,12 @@
+{
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "multiply_base",
+      "value": "-0.25"
+    }
+  ],
+  "name": "§2§nNimble",
+  "description": ""
+}

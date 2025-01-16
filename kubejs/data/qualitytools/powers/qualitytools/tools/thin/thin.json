@@ -1,0 +1,23 @@
+{
+    "type": "origins:multiple",
+    "name": "Arcane",
+    
+    "arcane": 
+    {
+      "type": "origins:modify_attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "modifier": {
+          "operation": "multiply_base",
+          "value": 0.1
+      }
+  },
+  "reach": 
+  {
+    "type": "origins:modify_attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -0.05
+    }
+}
+ }

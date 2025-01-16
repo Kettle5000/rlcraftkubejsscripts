@@ -1,0 +1,19 @@
+{
+	"powers":[
+	   "fae:fae_defense",
+	   "fae:fae_impact",
+	   "fae:fae_punch",
+	   "fae:fae_thing",
+	   "fae:fae_aura",
+	   "fae:hover",
+	   "fae:little_jump",
+	   "fae:reach_fix",
+	   "fae:flighthunger",
+	   "fae:falldamage"
+	],
+	"icon":"minecraft:sugar",
+	"order":10,
+	"impact":2,
+	"name":"Fae",
+	"description":"Born of the earth and the wind, the raw magic of the world swirls and spins at your fingertips."
+}

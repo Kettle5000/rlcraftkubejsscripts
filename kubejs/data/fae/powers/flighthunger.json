@@ -1,0 +1,23 @@
+{
+	"type": "origins:action_over_time",
+	"interval": 5,
+	"entity_action": {
+		"type": "origins:and",
+    "actions": [
+		
+	{
+        "type": "origins:exhaust",
+        "amount": 0.1
+      }
+]
+},
+
+	"cooldown": 5,
+	"hud_render": {
+		"should_render": false
+	},
+	"condition": {
+		"type": "origins:creative_flying"
+	},
+	"hidden": true
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Mother Of Nature",
+    "description": "Gives you Speed, Power and Regeneration around grass blocks\n\nSpeed+Power+Regeneration (1)\n\n",
+    "condition": {
+        "type": "origins:biome",
+    "condition": {
+        "type": "origins:in_tag",
+        "tag": "minecraft:is_forest"
+    }
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 280,
+    "tick_rate": 10,
+    "effect": {
+        "effect": "minecraft:strength",
+        "duration": 10,
+        "amplifier": 1,
+        "show_particles": true,
+        "show_icon": true
+    },
+    "effects": [
+        {
+            "effect": "minecraft:speed",
+            "duration": 10,
+            "amplifier": 0,
+            "show_particles": true,
+            "show_icon": true
+        },
+        {
+            "effect": "kubejs:true_shot",
+            "duration": 10,
+            "amplifier": 1,
+            "show_particles": true,
+            "show_icon": true
+        }
+    ]
+}

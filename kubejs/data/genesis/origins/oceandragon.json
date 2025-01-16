@@ -1,0 +1,27 @@
+{
+  "powers": [
+    "genesis:arcanite/manaflap",
+    "genesis:arcanite/mana_respawn_flap",
+    "genesis:arcanite/mana_regen_flap",
+		"genesis:arcanite/lightning_immune",
+		"genesis:arcanite/ocean_dragon_aura",
+		"genesis:arcanite/size",
+		"genesis:arcanite/nimble2",
+		"genesis:arcanite/attackminus",
+		"genesis:arcanite/resistance",
+		"genesis:arcanite/water_vision",
+		"genesis:arcanite/night_vision2",
+    "genesis:arcanite/waterbolt",
+		"genesis:arcanite/water_breathing",
+    "genesis:arcanite/waterboltmana",
+    "genesis:arcanite/boost",
+    "genesis:arcanite/flapmana",
+    "genesis:arcanite/flapfall",
+		"genesis:arcanite/dragonhunger"
+  ],
+  "icon": "minecraft:enchanted_book",
+  "order": 4,
+  "impact": 1,
+  "name":"Ocean Dragon",
+  "description": "Show them your power."
+}

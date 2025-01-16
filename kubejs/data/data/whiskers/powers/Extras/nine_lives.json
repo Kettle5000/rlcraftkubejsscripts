@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Nine lives health reduction",
+    "attribute": "minecraft:generic.max_health",
+    "value": -0.2,
+    "operation": "multiply_base"
+  },
+  "update_health": false
+}

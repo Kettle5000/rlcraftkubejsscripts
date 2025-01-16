@@ -1,0 +1,11 @@
+{
+    "name": "Fragile",
+    "description": "Health is reduced",
+    "type": "origins:modify_attribute",
+    "attribute": "minecraft:generic.max_health",
+    "modifier": {
+        "operation": "set_base",
+        "value": 16,
+        "name": "Passive"
+    }
+}

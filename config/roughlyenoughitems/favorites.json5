@@ -1,0 +1,11 @@
+{
+	"favorites": [
+		"{data:{Count:1b,id:\"quark:diorite_bricks\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"quark:chiseled_diorite_bricks\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"minecraft:oxidized_cut_copper_stairs\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"minecraft:polished_andesite\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"minecraft:spruce_stairs\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+	],
+	"hiddenFavorites": [],
+	"displays": []
+}

@@ -1,0 +1,9 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "name": "Max health increase",
+        "attribute": "minecraft:generic.armor",
+        "value": 0.375,
+        "operation": "addition"
+    }
+}

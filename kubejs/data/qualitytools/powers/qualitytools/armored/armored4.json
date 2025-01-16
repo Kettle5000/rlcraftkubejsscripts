@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_damage_taken",
+    "condition": {
+        "type": "origins:scoreboard",
+        "objective": "armored",
+        "comparison": "==",
+        "compare_to": 4
+    },
+    "modifier": {
+        "operation": "multiply_base_multiplicative",
+        "value": -0.12
+    }
+}
