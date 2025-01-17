@@ -678,3 +678,32 @@ global.getCurioAttributeCount = (entity, attribute) => {
         return 0;
     }
 }
+
+global.mobEffectsEvent = event => {
+//Help i dont know how to slap the below scope here
+};
+
+MobEffectEvents.applicable((event) => {
+    // Check if the entity is a player
+    if (!event.entity.isPlayer()) return;
+
+    const player = event.entity;
+
+    // Define the list of mob effects to block
+    const immuneEffects = [
+        'minecraft:poison',
+        'minecraft:wither',
+        'minecraft:blindness',
+        'minecraft:weakness',
+        'minecraft:hunger'
+    ];
+
+    // Check if the effect being applied is in the immune list
+    if (immuneEffects.includes(event.effect)) {
+        // Check if the player has the "kubejs:cure" effect
+        if (player.hasEffect('kubejs:cure')) {
+            // Deny the effect from being applied
+            event.setResult(EventResult.DENY);
+        }
+    }
+});
