@@ -21,6 +21,6 @@ ForgeEvents.onEvent("net.minecraftforge.event.AddReloadListenerEvent", event => 
 ForgeEvents.onEvent("net.minecraftforge.event.entity.player.PlayerEvent$BreakSpeed", event => global.break(event))
 JsonIO.write("config/forge_events_loaded.json", { serverLoaded: false, clientLoaded: false })
 
-/** Living Hurt Event - Needed for changing the damage result which the KubeJS hurt event is unable to do */
+/** MobEffectEvent events to handle armor sets inmunity  */
 ForgeEvents.onEvent("net.minecraftforge.event.entity.living.MobEffectEvent$Applicable", event =>
     global.mobEffectsEvent(event))
